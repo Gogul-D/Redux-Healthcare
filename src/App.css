@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+/* ── Layout background ── */
+body {
+  background: #f0f2f5;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ── Ant Design Table: uppercase column headers ── */
+.ant-table-thead > tr > th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8c8c8c !important;
+  background: #fafafa !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ── Subtle row hover ── */
+.ant-table-tbody > tr:hover > td {
+  background: #f0f7ff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ── Card title font ── */
+.ant-card-head-title {
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ── Statistic title smaller ── */
+.ant-statistic-title {
+  font-size: 11px;
+  color: #8c8c8c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ── Segmented control spacing ── */
+.ant-segmented {
+  background: #f0f2f5;
 }
